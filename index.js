@@ -1,6 +1,6 @@
 const pg = require("pg");
 const express = require("express");
-const client = new pg.Client("postgres://localhost/shows");
+const client = new pg.Client("git");
 const app = express();
 const cors = require("cors");
 
